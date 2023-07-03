@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Escola DNC</title>
+</head>
+<body>
+        <div id="menusuperior">
+            <a href="https://www.escoladnc.com.br/"> <img src="imagens/logodnc.png" id="logo"></a>
+    
+            <h1 id="titulo-menu-superior">Dê os primeiros passos da<br>
+                sua carreira em Tecnologia</h1>
+            <p id="texto-menu-superior">Inscreva-se no curso gratuito de Introdução à <br>Tecnologia da DNC School e aprenda os principais<br> fundamentos para construir experiências efetivas.</p>
+        </div>
+        <div id="menuinformacional">
+           
+           <p class="textoinformativo"><img src="imagens/Vector (1).png" class="icone" id="certificado">Certificado de conclusão</p>
+          
+           <p class="textoinformativo"> <img src="imagens/ic_baseline-access-time.png" class="icone" id="relogio">4 horas de conteúdo</p>
+           
+           <p class="textoinformativo"><img src="imagens/Vector (3).png" class="icone" id="camera">Aulas online gravadas</p>
+        </div>
+
+        <div id="secaovideo">
+            <iframe id="video" width="502" height="283" src="https://www.youtube.com/embed/9wA5SYrALz8" title="Seja bem-vindo(a) ao canal da Escola DNC!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div>
+            <h1 id="titulovideo">Aprenda com especialistas e <br>
+                comece seu primeiro projeto</h1><br><br>
+            <p id="textovideo">Conheça o processo de desenvolvimento e entenda como utilizar<br>
+                os principais métodos e ferramentas da área para resolver <br>
+                problemas complexos.<br><br>
+
+            Conquiste seu certificado e desenvolva um projeto prático para<br>
+             aplicar seus conhecimentos.</p>
+            </div>
+        </div>
+
+        <!--Carrossel-->
+        <div id="carrossel">
+            <h1 id="titulocarrossel">Mais de 500 alunos já iniciaram seus estudos</h1>
+            <div id="div-cards">
+                <img id="seta-esquerda" onclick="RolarParaEsquerda()" class="seta" src="imagens/esquerda.png">
+                <img id="Leonardo" class="card" src="imagens/Leonardo.png">
+                <img id="Samantha" class="card"  src="imagens/Samantha.png">
+                <img id="Bruna" class="card" src="imagens/Bruna.png">
+                <img  id="seta-direita" onclick="RolarParaDireita()" class="seta" src="imagens/direita.png">
+            </div>
+        </div>
+
+        <div id="formulario">
+            <h1 id="titulo-formulario">Mais de 500 alunos já iniciaram seus estudos</h1>
+            <form id="">
+                <input type="text" placeholder="Nome"> <br>
+                <input type="email" placeholder="Email"> <br>
+                <input type="number" placeholder="Telefone"> <br>
+                <button>Acesse a ementa grátis</button>
+            </form>
+        </div>
+    <script src="index.js"></script>
+</body>
+</html>
